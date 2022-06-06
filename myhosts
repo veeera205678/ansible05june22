@@ -1,18 +1,4 @@
-[mywebserver]
 172.31.39.85
 172.31.41.153
 
-[myapplicationserver]
-172.31.39.84
-172.31.41.152
-
-[myDBserver]
-172.31.39.83
-172.31.41.151
-
-[myubuntuservers]
-172.31.39.85
-
-[myredhatservers]
-172.31.41.153
 
