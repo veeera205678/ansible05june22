@@ -1,5 +1,5 @@
 ---
-  - name: create  afile on node side
+  - name: create  a file on node side
     file:
       path: /home/ubuntu/testfile
       state: touch
