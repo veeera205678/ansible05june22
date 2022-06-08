@@ -1,10 +1,10 @@
 ---
-- hosts: mywebservers
+- hosts: all
   become: yes
   vars:
-   myvar1: git
-   myvar2: tree
-   myvar3: wget
+    myvar1: git
+    myvar2: tree
+    myvar3: wget
   tasks:
   - name: install tree 
     apt: 
