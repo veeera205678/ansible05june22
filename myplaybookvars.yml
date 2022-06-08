@@ -6,7 +6,7 @@
     myvar2: tree
     myvar3: wget
   tasks:
-  - name: install tree 
+  - name: install git 
     apt: 
      name: "{{myvar1}}"
   - name: i want to display myvar1
