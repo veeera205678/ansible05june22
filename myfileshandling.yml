@@ -3,3 +3,7 @@
   become: yes
   tasks:
   - include_tasks: myfile.yml
+  - name: i want to install webserver on ansible node 
+    apt:
+     name: apache2
+     state: present
