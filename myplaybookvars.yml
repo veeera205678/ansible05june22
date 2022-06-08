@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  vars:
+  myvars1: git
+  myvars2: tree
+  myvars3: wget
+  tasks:
+  - name: install tree 
+    apt: 
+     name: "{{myvars1}}"
