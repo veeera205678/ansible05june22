@@ -8,4 +8,7 @@
   tasks:
   - name: install tree 
     apt: 
-     name: "{{myvar2}}"
+     name: "{{myvar1}}"
+  - name: i want to display myvar1
+    debug:
+      msg: "{{myvar1}}"
