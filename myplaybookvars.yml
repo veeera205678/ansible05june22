@@ -8,4 +8,4 @@
   tasks:
   - name: install tree 
     apt: 
-     name: "{{myvars1}}"
+     name: "{{myvars2}}"
