@@ -6,6 +6,6 @@
    myvar2: tree
    myvar3: wget
   tasks:
-  - name: install git 
+  - name: install tree 
     apt: 
-     name: "{{myvar1}}"
+     name: "{{myvar2}}"
