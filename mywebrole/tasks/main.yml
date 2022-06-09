@@ -1,6 +1,5 @@
 ---
 - name: i want to install webserver
-  apt:
+  apt: 
    name: apache2
    state: present
-   
